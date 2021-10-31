@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+
+    <!-- <video src="midia/meu-video.m4v" poster="https://github.com/gustavoguanabara/html-css/blob/master/exercicios/modulo-01/ex012/imagens/limoes-capa.png?raw=true" width="500" controls></video> Colocando um único tipo de vídeo. -->
+
+    <video width="560" poster="https://github.com/gustavoguanabara/html-css/blob/master/exercicios/modulo-01/ex012/imagens/limoes-capa.png?raw=true" controls>
+        <source src="midia/meu-video.m4v" type="video/mp4">
+        <source src="midia/meu-videomp4v.m4v" type="video/mp4">
+        <source src="midia/meu-video.webm" type="video/webm">
+        <source src="midia/meu-video.ogv" type="video/ogg">
+        <p>Seu navegador não tem compatibiliade com reprodução de vídeos.</p>
+    </video>
+    <!-- Usando vários tipos de vídeo-->
+
+    <h1>Inserindo vídeos do YouTube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/msBbOiPi6KM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <h1>Inserindo vídeos do vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/504449312?title=0&byline=0&portrait=0" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

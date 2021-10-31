@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste003</title>
+</head>
+<body>
+    <h1>Adicionando mídias ao site.</h1>
+    <h2>Tag para colocar audio com uma opção de tipo de mídia:</h2>
+    <p> Use a tag: <code>&lt;audio src="nome_do_arquivo.mp3" controls autoplay &gt;&lt;/audio&gt; </code> para adicionar um audio. Segue o exemplo abaixo:</p>
+    <audio src="midia/withoutasound-letterbox.mp3" controls autoplay></audio>
+    <h2>Tag para colocar audio com varias opções de tipo de mídia:</h2>
+    <p>Use essa tag para colocar vários tipos de mídia: Segue o exemplo abaixo:</p>
+    <audio preload="metadata" autoplay controls >
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+        <source src="midia/guanacast-33.ogg" type="audio/ogg">
+        <source src="midia/guanacast-33.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir audio <a href="midia/guanacast-33.mp3"> Clique aqui para baixar o arquivo mp3.</a></p>
+    </audio>
+    
+    <h2>Tag para colocar vídeo no site com uma opção de mídia:</h2>
+    <p>Use a tag <code>&lt;video src = "nome_do_arquico.mp4" poster = "capa_do_video" width = "ajuste do tamonho do player" controls&gt;&lt;/video&gt;</code> segue o exemplo abaixo:</p>
+    <video src="midia/meu-video.m4v" poster="https://github.com/gustavoguanabara/html-css/blob/master/exercicios/modulo-01/ex012/imagens/limoes-capa.png?raw=true" width="500" controls></video>
+    <h2>Tag para colocar vária opções de mídia. segue o exemplo abaixo:</h2>
+    <video width="500" poster="https://github.com/gustavoguanabara/html-css/blob/master/exercicios/modulo-01/ex012/imagens/limoes-capa.png?raw=true" controls>
+        <source src="midia/meu-video.m4" type="video.mp4">
+        <source src="midia/meu-videomp4v.m4v" type="video.mp4">
+        <source src="midia/meu-video.webm" type="video.webm">
+        <source src="midia/meu-video.ogv" type="video.ogg">
+    </video>
+</body>
+</html>
